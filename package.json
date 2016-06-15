@@ -1,0 +1,34 @@
+{
+  "name": "recrypt",
+  "version": "1.0.0",
+  "description": "Simple encrypt & decrypt using RSA private keys",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "base64url": "^1.0.6",
+    "node-rsa": "^0.3.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morrelinko/recrypt.git"
+  },
+  "keywords": [
+    "encrypt",
+    "decrypt",
+    "rsa",
+    "privatekeys",
+    "ssl"
+  ],
+  "author": "Laju Morrison <morrelinko@gmail.com> (http://morrelinko.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/morrelinko/recrypt/issues"
+  },
+  "homepage": "https://github.com/morrelinko/recrypt#readme"
+}
