@@ -1,9 +1,11 @@
-# SoftXCrypt
+# ReCrypt
 
 ## Usage
 
 ```js
-let crypt = new Crypt();
+let ReCrypt = require('recrypt');
+let crypt = new ReCrypt();
+
 crypt.setPrivateKey({
     path: /path/to/private.pem
 });
